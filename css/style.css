@@ -76,16 +76,23 @@ h6 {
     top: 20px;
 }
 
-.callBtn:hover{
-    background-color: rgb(2, 156, 156)
+.clearBtn {
+    color: white;
+    border: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background:transparent;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+.clearBtn:hover {
+    background-color: rgb(65, 64, 64)
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+.callBtn:hover{
+    background-color: rgb(2, 156, 156)
 }
 
 .symbol{
